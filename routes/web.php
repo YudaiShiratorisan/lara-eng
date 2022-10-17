@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/create-file', function () {
-    return view('/create-file');
+    return view('create-file');
 });
 
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
