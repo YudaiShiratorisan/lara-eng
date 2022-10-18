@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ asset('css/create-file.css') }}">
   <header>
     <div class="header-left">
       <button type="button" onclick="history.back()">戻る</button>
@@ -15,7 +16,7 @@
 
     <style>
       header {
-        background-color: orange;
+        background-color: rgb(243, 197, 197);
       }
 
       .header-left{
