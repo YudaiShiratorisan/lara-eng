@@ -10,7 +10,7 @@
       <button type="button" onclick="history.back()">戻る</button>
     </div>
     <div class="header-center">
-      <h2>ファイルを追加</h2>
+      <h2>ファイルを編集</h2>
     </div>
 
 
