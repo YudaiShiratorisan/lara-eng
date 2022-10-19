@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0px;
+    border-bottom: 1px solid blue;
+}
+
+.login{
+    position: absolute;
+    left: 1170px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.touroku{
+    position: absolute;
+    left: 1250px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.add-word{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 100px;
+    left: 70px;
+    border: 2px solid white;
+}
+
+.txt{
+    color: #a8cff1;
+    background-color: transparent;
+    padding: 0px;
+    margin: 100px 0px 0px 170px;
+    font-size: 30px;
+}
+
+.add-file{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 100px;
+    left: 700px;
+    border: 2px solid white;
+}
+
+.file{
+    color: #dff709;
+    background-color: transparent;
+    padding: 0px;
+    margin: 100px 0px 0px 200px;
+    font-size: 30px;
+}
+
+.all-file{
+    position: absolute;
+    width: 1235px;
+    top: 405px;
+    left: 30px;
+    list-style: none;
+}
+
+.file1{
+    height: 60px;
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.file-txt1{
+    margin: 18px;
+}
+
+.file2{
+    height: 60px;
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.file-txt2{
+    margin: 18px;
+}
+
+.file3{
+    height: 60px;
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.file-txt3{
+    margin: 18px;
+}
+
+.delete{
+    position: absolute;
+    width: 100px;
+    top: 425px;
+    left: 1190px;
+    list-style: none;
+}
+
+.delete1{
+    margin-bottom: 16px;
+    height: 60px;
+}
+
+.delete2{
+    margin-bottom: 19px;
+    height: 60px;
+}
+
+.sakujyo{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
