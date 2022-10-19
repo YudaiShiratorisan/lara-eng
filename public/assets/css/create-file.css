@@ -5,11 +5,15 @@ header {
 
 .header-left{
   border: none;
-  outline: none;
   background: transparent;
+  pointer-events: painted;
   margin-left: 20px;
   margin-top: 5px;
   font-size: 20px;
+}
+
+.header-left:hover {
+  color: grey;
 }
 
 .header-center {
