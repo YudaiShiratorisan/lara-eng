@@ -1,0 +1,16 @@
+/* header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* background-color: ; */
+/* } */
+
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+.header-center{
+  display: flex;
+  text-align: center;
+}

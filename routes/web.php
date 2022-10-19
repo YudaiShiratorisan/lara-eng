@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/create-file', function () {
+    return view('engs.create-file');
+});
+
+// Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
