@@ -9,9 +9,7 @@
 
 <body>
   <header>
-    <div class="header-left">
-      <button type="button" onclick="history.back()">戻る</button>
-    </div>
+    <button class="header-left" type="button" onclick="history.back()">＜ 戻る</button>
     <div class="header-center">
       <h2>ファイルを追加</h2>
     </div>

@@ -4,15 +4,19 @@ header {
 }
 
 .header-left{
+  border: none;
+  outline: none;
+  background: transparent;
   margin-left: 20px;
-  margin-top: 25px;
+  margin-top: 5px;
+  font-size: 20px;
 }
 
 .header-center {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 495px;
+  margin-left: 460px;
 }
 
 body {
