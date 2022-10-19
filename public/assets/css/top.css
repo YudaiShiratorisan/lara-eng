@@ -84,8 +84,17 @@ body{
     margin-bottom: 14px;
 }
 
+.file-button1{
+    background-color: transparent;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border-color: transparent;
+    font-size: 18px;
+}
+
 .file-txt1{
-    margin: 18px;
+    margin: 15px;
 }
 
 .file2{
@@ -95,8 +104,17 @@ body{
     margin-bottom: 14px;
 }
 
+.file-button2{
+    background-color: transparent;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border-color: transparent;
+    font-size: 18px;
+}
+
 .file-txt2{
-    margin: 18px;
+    margin: 15px;
 }
 
 .file3{
@@ -106,8 +124,17 @@ body{
     margin-bottom: 14px;
 }
 
+.file-button3{
+    background-color: transparent;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border-color: transparent;
+    font-size: 18px;
+}
+
 .file-txt3{
-    margin: 18px;
+    margin: 15px;
 }
 
 .delete{
