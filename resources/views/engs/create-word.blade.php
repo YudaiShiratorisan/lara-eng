@@ -28,6 +28,8 @@
         <option value="" disable selected style="display:none;">単語のイメージ色は？</option>
         <option value="赤">赤</option>
         <option value="青">青</option>
+        <option value="黄">黄</option>
+        <option value="緑">緑</option>
         <option value="なし">なし</option>
       </select>
     </div>
