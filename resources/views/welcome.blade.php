@@ -10,7 +10,7 @@
     </head>
     <body class="antialiased">
         <header class="header">
-            <p class="theme">aaa</p>
+            <p class="theme"><span>aaaa</span></p>
             <button class="login">ログイン</button>
             <button class="touroku">新規登録</button>
         </header>
