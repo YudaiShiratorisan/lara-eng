@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  background-color: rgb(243, 197, 197);
+}
+
+.header-left{
+  border: none;
+  background: transparent;
+  pointer-events: painted;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.header-left:hover {
+  color: grey;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 460px;
+}
+
+body {
+  background-color: black;
+}
+
+.word-idiom{
+  background-color: azure;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+  width: 1015px;
+}
+
+.meaning{
+  background-color: azure;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+  width: 1015px;
+}
+
+.whichfile{
+  color: grey;
+  margin: 0 450px 20px 435px;
+  font-size: 14px;
+  padding: 15px;
+  width: 20%;
+}
+
+.whichcolor{
+  color: grey;
+  margin: 0 450px 20px 435px;
+  font-size: 14px;
+  padding: 15px;
+  width: 20%;
+}
+
+.btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 575px;
+  width: 135px;
+  height: 60px;
+  font-size: large;
+}
+

@@ -21,4 +21,8 @@ Route::get('/create-file', function () {
     return view('engs.create-file');
 });
 
+Route::get('/create-word', function () {
+    return view('engs.create-word');
+});
+
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

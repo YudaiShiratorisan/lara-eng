@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ asset('assets/css/create-word.css') }}">
+</head>
+
+<body>
+  <header>
+    <button class="header-left" type="button" onclick="history.back()">＜ 戻る</button>
+    <div class="header-center">
+      <h2>単語・熟語を追加</h2>
+    </div>
+  </header>
+  <div style="padding: 25px 60px 5px 60px; margin: 30px 40px 40px 40px; border: 5px double white;">
+      <input class="word-idiom" type="text" placeholder="単語・熟語">
+      <input class="meaning" type="text" placeholder="意味">
+
+      <select class="whichfile" name="which-file">
+        <option value="" disable selected style="display:none;">どのファイル？</option>
+        <option value="sample1">sample1</option>
+        <option value="sample2">sample2</option>
+      </select>
+
+      <select class="whichcolor" name="which-color">
+        <option value="" disable selected style="display:none;">単語のイメージ色は？</option>
+        <option value="赤">赤</option>
+        <option value="青">青</option>
+        <option value="なし">なし</option>
+      </select>
+    </div>
+  </div>
+
+  <button class="btn1" type="submit">登録完了</button>
+
+  {{-- <button> 登録完了 </button> --}}
+
+
+</body>
+
+</html>
