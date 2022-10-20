@@ -41,9 +41,9 @@
             <li class="file3"><a class="file-button3"><p class="file-txt3">新規ファイル3</p></a></li>
         </ul>
         <ul class="delete">
-            <li class="delete1"><a class="sakujyo">削除</a></li>
-            <li class="delete2"><a class="sakujyo">削除</a></li>
-            <li class="delete3"><a class="sakujyo">削除</a></li>
+            <li class="delete1"><button class="sakujyo">削除</button></li>
+            <li class="delete2"><button class="sakujyo">削除</button></li>
+            <li class="delete3"><button class="sakujyo">削除</button></li>
         </ul>
     </body>
 </html>
