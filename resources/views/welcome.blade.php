@@ -36,14 +36,14 @@
             <button class="file">ファイルを追加</button>
         </div>
         <ul class="all-file">
-            <li class="file1"><button class="file-button1"><p class="file-txt1">新規ファイル</p></button></li>
-            <li class="file2"><button class="file-button2"><p class="file-txt2">新規ファイル2</p></button></li>
-            <li class="file3"><button class="file-button3"><p class="file-txt3">新規ファイル3</p></button></li>
+            <li class="file1"><a class="file-button1"><p class="file-txt1">新規ファイル</p></a></li>
+            <li class="file2"><a class="file-button2"><p class="file-txt2">新規ファイル2</p></a></li>
+            <li class="file3"><a class="file-button3"><p class="file-txt3">新規ファイル3</p></a></li>
         </ul>
         <ul class="delete">
-            <li class="delete1"><button class="sakujyo">削除</button></li>
-            <li class="delete2"><button class="sakujyo">削除</button></li>
-            <li class="delete3"><button class="sakujyo">削除</button></li>
+            <li class="delete1"><a class="sakujyo">削除</a></li>
+            <li class="delete2"><a class="sakujyo">削除</a></li>
+            <li class="delete3"><a class="sakujyo">削除</a></li>
         </ul>
     </body>
 </html>
