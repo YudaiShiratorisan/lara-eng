@@ -9,37 +9,37 @@
 
 <body>
   <header>
-    <button class="header-left" type="button" onclick="history.back()">＜ 戻る</button>
-    <div class="header-center">
-      <h2>単語・熟語を追加</h2>
-    </div>
+    <div class="center">
+        <button class="header-left" type="button" onclick="history.back()">＜ 戻る</button>
+        <div class="header-center">
+          <span>単語・熟語を追加</span>
+        </div>
+    </div>  
   </header>
-  <div style="padding: 25px 60px 5px 60px; margin: 30px 40px 40px 40px; border: 5px double white;">
+    <div style="padding: 25px 60px 5px 60px; margin: 30px 40px 40px 40px; border: 5px double white;">
       <input class="word-idiom" type="text" placeholder="単語・熟語">
       <input class="meaning" type="text" placeholder="意味">
-
-      <select class="whichfile" name="which-file">
-        <option value="" disable selected style="display:none;">どのファイル？</option>
-        <option value="sample1">sample1</option>
-        <option value="sample2">sample2</option>
-      </select>
-
-      <select class="whichcolor" name="which-color">
-        <option value="" disable selected style="display:none;">単語のイメージ色は？</option>
-        <option value="赤">赤</option>
-        <option value="青">青</option>
-        <option value="黄">黄</option>
-        <option value="緑">緑</option>
-        <option value="なし">なし</option>
-      </select>
+  
+      <div class="items">
+        <select class="whichfile" name="which-file">            
+          <option value="" disable selected style="display:none;">どのファイル？</option>
+          <option value="sample1">sample1</option>
+          <option value="sample2">sample2</option>
+        </select>
+  
+        <select class="whichcolor" name="which-color">
+          <option value="" disable selected style="display:none;">単語のイメージ色は？</option>
+          <option value="赤">赤</option>
+          <option value="青">青</option>
+          <option value="黄">黄</option>
+          <option value="緑">緑</option> 
+          <option value="なし">なし</option>
+         </select>
+      </div>  
     </div>
-  </div>
 
-  <button class="btn1" type="submit">登録完了</button>
-
-  {{-- <button> 登録完了 </button> --}}
-
-
+  <button class="btn1" type="submit">登録完了</button> 
+      
 </body>
 
 </html>
