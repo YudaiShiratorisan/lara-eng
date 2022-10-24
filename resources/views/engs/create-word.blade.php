@@ -35,15 +35,11 @@
           <option value="緑">緑</option> 
           <option value="なし">なし</option>
          </select>
-
       </div>  
-
     </div>
 
   <button class="btn1" type="submit">登録完了</button> 
       
-
-  {{-- <button> 登録完了 </button> --}}
 </body>
 
 </html>

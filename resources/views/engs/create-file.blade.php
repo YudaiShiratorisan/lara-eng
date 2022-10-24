@@ -20,10 +20,6 @@
     </div>
     <button class="btn1" type="submit">登録完了</button>
   </form>
-  
-
-
-  {{-- <button> 登録完了 </button> --}}
 
 
 </body>

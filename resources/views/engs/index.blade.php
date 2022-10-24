@@ -19,21 +19,21 @@
   </header>
   
   <div class="list">
-    <div class="word" disabled>like</div>
-    <div class="meaning" disabled>～を好む、～のような</div>
-    <div class="understanding" disabled>理解度 A</div>
+    <div class="word">like</div>
+    <div class="meaning">～を好む、～のような</div>
+    <div class="understanding">理解度 A</div>
   </div>
   
   <div class="list2">
-    <div class="word2" disabled>dislike</div>
-    <div class="meaning2" disabled>～を嫌う</div> 
-    <div class="understanding2" disabled>理解度 B</div> 
+    <div class="word2">dislike</div>
+    <div class="meaning2">～を嫌う</div> 
+    <div class="understanding2">理解度 B</div> 
   </div>
     
   <div class="list3">
-    <div class="word3" disabled>sample</div>
-    <div class="meaning3" disabled>サンプル、見本</div>
-    <div class="understanding3" disabled>理解度 C</div>
+    <div class="word3">sample</div>
+    <div class="meaning3">サンプル、見本</div>
+    <div class="understanding3">理解度 C</div>
   </div>
     
   

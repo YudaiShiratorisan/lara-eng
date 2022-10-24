@@ -48,7 +48,6 @@ body {
 .word{
   display: flex;
   background-color: #ffc0cb;
-  /* margin: 20px 0 20px 60px; */
   padding: 20px;
   font-size: 24px;
   width: 37%;
@@ -56,10 +55,8 @@ body {
 
 .meaning{
   display: flex;
-  /* justify-content: center; */
   align-content: center;
   background-color: #ffc0cb;
-  /* margin: 20px 0 20px 0; */
   padding: 20px;
   font-size: 24px;
   width: 37%;
@@ -67,7 +64,6 @@ body {
 
 .understanding{
   background-color: #ffc0cb;
-  /* margin: 20px 0 20px 0; */
   padding: 24px;
   font-size: 18px;
   width: 9%;
@@ -83,7 +79,6 @@ body {
 .word2{
   display: flex;
   background-color: #afeeee;
-  /* margin: 0 0 20px 60px; */
   padding: 20px;
   font-size: 24px;
   width: 37%;
@@ -91,10 +86,7 @@ body {
 
 .meaning2{
   display: flex;
-  /* justify-content: center; */
-  /* align-content: center; */
   background-color: #afeeee;
-  /* margin: 0 0 20px 0; */
   padding: 20px;
   font-size: 24px;
   width: 37%;
@@ -103,7 +95,6 @@ body {
 .understanding2{
   display: flex;
   background-color: #afeeee;
-  /* margin: 0 0 20px 0; */
   padding: 24px;
   font-size: 18px;
   width: 9%;
@@ -119,7 +110,6 @@ body {
 .word3{
   display: flex;
   background-color: azure;
-  /* margin: 0 0 20px 60px; */
   padding: 20px;
   font-size: 24px;
   width: 37%;
@@ -127,10 +117,8 @@ body {
 
 .meaning3{
   display: flex;
-  /* justify-content: center; */
   align-content: center;
   background-color: azure;
-  /* margin: 0 0 20px 0; */
   padding: 20px;
   font-size: 24px;
   width: 37%;
@@ -139,7 +127,6 @@ body {
 .understanding3{
   display: flex;
   background-color: azure;
-  /* margin: 0 0 20px 0; */
   padding: 24px;
   font-size: 18px;
   width: 9%;
