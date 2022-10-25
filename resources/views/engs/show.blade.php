@@ -16,18 +16,18 @@
         </header>
         <div class="center2">
             <section class="contents">
-                <article class="item">
+                <a href="" class="item">
                 <button class="top" type="button">単語一覧・詳細</button>
-                </article>
-                <article class="item">
+                </a>
+                <a href="" class="item">
                 <button class="top2" type="button">テスト</button>
-                </article>
-                <article class="item clear_box">
+                </a>
+                <a href="" class="item clear_box">
                 <button class="bottom" type="button">復習</button>
-                </article>
-                <article class="item">
+                </a>
+                <a href="" class="item">
                 <button class="bottom2" type="button">間違えた問題をテスト</button>
-                </article>
+                </a>
             </section>
         </div>
     </body>
