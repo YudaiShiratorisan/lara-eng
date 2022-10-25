@@ -9,11 +9,11 @@ class words extends Model
 {
     public function user()
     {
-        return $this->belongsTo('App\User')
+        return $this->belongsTo('App\Models\User');
     }
 
     public function file()
     {
-        return $this->belongsTo('App\File')
+        return $this->belongsTo('App\Models\File');
     }
 }

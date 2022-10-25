@@ -9,11 +9,11 @@ class file extends Model
 {
     public function user()
     {
-        return $this->belongsTo('App\User')
+        return $this->belongsTo('App\Models\User')
     }
 
     public function words()
     {
-        return $this->hasMany('App\Word')
+        return $this->hasMany('App\Models\Word');
     }
 }

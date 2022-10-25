@@ -44,11 +44,11 @@ class User extends Authenticatable
 
     public function files()
     {
-        return $this->hasMany('App\File')
+        return $this->hasMany('App\Models\File');
     }
 
     public function words()
     {
-        return $this->hasMany('App\Word')
+        return $this->hasMany('App\Models\Word');
     }
 }
