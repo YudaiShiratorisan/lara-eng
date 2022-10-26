@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EngController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,5 @@ Route::get('/show', function () {
 });
 
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/index','EngController@index')->name('engs.index');

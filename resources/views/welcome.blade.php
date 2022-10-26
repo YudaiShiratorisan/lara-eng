@@ -30,20 +30,24 @@
             @endif
         </div>
         <div class="add-word">
-            <button class="txt">単語・熟語を追加</button>
+            <a href="http://127.0.0.1:8000/create-word">
+                <button class="txt" type="submit">単語・熟語を追加</button>
+            </a>
         </div>
         <div class="add-file">
-            <button class="file">ファイルを追加</button>
+            <a href="http://127.0.0.1:8000/create-file">
+                <button class="file" type="submit">ファイルを追加</button>
+            </a>
         </div>
         <ul class="all-file">
-            <li class="file1"><a class="file-button1"><p class="file-txt1">新規ファイル</p></a></li>
-            <li class="file2"><a class="file-button2"><p class="file-txt2">新規ファイル2</p></a></li>
-            <li class="file3"><a class="file-button3"><p class="file-txt3">新規ファイル3</p></a></li>
+            <li class="file1"><a href="" class="file-button1" style="text-decoration:none;"><p class="file-txt1">新規ファイル</p></a></li>
+            <li class="file2"><a href="" class="file-button2" style="text-decoration:none;"><p class="file-txt2">新規ファイル2</p></a></li>
+            <li class="file3"><a href="" class="file-button3" style="text-decoration:none;"><p class="file-txt3">新規ファイル3</p></a></li>
         </ul>
         <ul class="delete">
-            <li class="delete1"><button class="sakujyo">削除</button></li>
-            <li class="delete2"><button class="sakujyo">削除</button></li>
-            <li class="delete3"><button class="sakujyo">削除</button></li>
+            <li class="delete1"><button class="sakujyo" type="submit">削除</button></li>
+            <li class="delete2"><button class="sakujyo" type="submit">削除</button></li>
+            <li class="delete3"><button class="sakujyo" type="submit">削除</button></li>
         </ul>
     </body>
 </html>
