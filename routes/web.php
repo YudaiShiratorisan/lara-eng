@@ -36,4 +36,4 @@ Route::get('/show', function () {
 
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/index','EngController@index')->name('engs.index');
+Route::get('/show','EngController@show')->name('engs.show');

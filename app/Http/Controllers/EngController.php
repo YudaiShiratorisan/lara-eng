@@ -7,9 +7,9 @@ class EngController extends Controller
 {
     //
 
-    public function index()
+    public function show()
     {
         // dd($id);
-        return view('engs.index');
+        return view('engs.show');
     }
 }
