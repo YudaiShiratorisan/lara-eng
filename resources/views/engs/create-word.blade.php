@@ -38,7 +38,9 @@
       </div>  
     </div>
 
-  <button class="btn1" type="submit">登録完了</button> 
+    <a href="http://127.0.0.1:8000/" style="text-decoration:none">
+      <button class="btn1" type="submit">登録完了</button>
+    </a>
       
 </body>
 

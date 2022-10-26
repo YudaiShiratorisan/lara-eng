@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +17,17 @@
         </header>
         <div class="center2">
             <section class="contents">
-                <a href="{{}}" class="item">
-                <button class="top" type="submit">単語一覧・詳細</button>
+                <a href="{{route('engs.index')}}" class="item">
+                <button class="top" type="button">単語一覧・詳細</button>
                 </a>
-                <a href="{{}}" class="item">
-                <button class="top2" type="submit">テスト</button>
+                <a href="" class="item">
+                <button class="top2" type="button">テスト</button>
                 </a>
-                <a href="{{}}" class="item clear_box">
-                <button class="bottom" type="submit">復習</button>
+                <a href="" class="item clear_box">
+                <button class="bottom" type="button">復習</button>
                 </a>
-                <a href="{{}}" class="item">
-                <button class="bottom2" type="submit">間違えた問題をテスト</button>
+                <a href="" class="item">
+                <button class="bottom2" type="button">間違えた問題をテスト</button>
                 </a>
             </section>
         </div>
