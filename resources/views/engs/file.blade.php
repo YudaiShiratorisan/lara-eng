@@ -18,7 +18,7 @@
       <input class="file-name" type="text" placeholder="ファイル名">
     </div>
     
-    <a href="http://127.0.0.1:8000/" style="text-decoration:none">
+    <a href="{{ route('welcome') }}" style="text-decoration:none">
       <button class="btn1" type="submit">登録完了</button>
     </a>
 

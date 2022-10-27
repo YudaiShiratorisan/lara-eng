@@ -6,10 +6,18 @@ use Illuminate\Http\Request;
 class EngController extends Controller
 {
     //
-
-    public function index()
+    public function word()
     {
-        // dd($id);
-        return view('engs.index');
+        return view('engs.word');
+    }
+
+    public function file()
+    {
+        return view('engs.file');
+    }
+
+    public function welcome()
+    {
+        return view('welcome');
     }
 }

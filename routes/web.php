@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EngController;
+use App\Http\Controllers\DetailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +37,13 @@ Route::get('/show', function () {
 
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/index','EngController@index')->name('engs.index');
+Route::get('/word','EngController@word')->name('engs.word');
+
+Route::get('/file','EngController@file')->name('engs.file');
+
+Route::get('/show','DetailController@show')->name('engs.show');
+
+Route::get('/index','DetailController@index')->name('engs.index');
+
+Route::get('/welcome','EngController@welcome')->name('welcome');
+
