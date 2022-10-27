@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EngController;
+use App\Http\Controllers\DetailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,26 +15,34 @@ use App\Http\Controllers\EngController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/create-file', function () {
-    return view('engs.create-file');
-});
+// Route::get('/create-file', function () {
+//     return view('engs.create-file');
+// });
 
-Route::get('/create-word', function () {
-    return view('engs.create-word');
-});
+// Route::get('/create-word', function () {
+//     return view('engs.create-word');
+// });
 
-Route::get('/index', function () {
-    return view('engs.index');
-});
+// Route::get('/index', function () {
+//     return view('engs.index');
+// });
 
-Route::get('/show', function () {
-    return view('engs.show');
-});
+// Route::get('/show', function () {
+//     return view('engs.show');
+// });
 
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/show','EngController@show')->name('engs.show');
+Route::get('/word','EngController@word')->name('engs.word');
+
+Route::get('/file','EngController@file')->name('engs.file');
+
+Route::get('/show','DetailController@show')->name('engs.show');
+
+Route::get('/index','DetailController@index')->name('engs.index');
+
+Route::get('/welcome','EngController@welcome')->name('welcome');
