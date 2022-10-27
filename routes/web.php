@@ -15,25 +15,25 @@ use App\Http\Controllers\DetailController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/create-file', function () {
-    return view('engs.create-file');
-});
+// Route::get('/create-file', function () {
+//     return view('engs.create-file');
+// });
 
-Route::get('/create-word', function () {
-    return view('engs.create-word');
-});
+// Route::get('/create-word', function () {
+//     return view('engs.create-word');
+// });
 
-Route::get('/index', function () {
-    return view('engs.index');
-});
+// Route::get('/index', function () {
+//     return view('engs.index');
+// });
 
-Route::get('/show', function () {
-    return view('engs.show');
-});
+// Route::get('/show', function () {
+//     return view('engs.show');
+// });
 
 // Route::get('/create-file', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
