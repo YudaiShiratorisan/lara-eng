@@ -16,9 +16,12 @@
         </div>
     </div>  
   </header>
+  <form action="{{ route('engs.store') }}" method="POST" enctype="multipart/form-data">
+    @csrf
     <div style="padding: 25px 60px 5px 60px; margin: 30px 40px 40px 40px; border: 5px double white;">
-      <input class="word-idiom" type="text" placeholder="単語・熟語">
-      <input class="meaning" type="text" placeholder="意味">
+      <input class="word-idiom" type="text" placeholder="user_id" name="user_id">
+      <input class="word-idiom" type="text" placeholder="単語・熟語" name="word">
+      <input class="meaning" type="text" placeholder="意味" name="mean">
   
       <div class="items">
         <select class="whichfile" name="which-file">            
@@ -41,6 +44,7 @@
     <a href="{{ route('welcome') }}" style="text-decoration:none">
       <button class="btn1" type="submit">登録完了</button>
     </a>
+  </form>
       
 </body>
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use App\Models\Word;
 
 class EngController extends Controller
 {
@@ -19,5 +20,18 @@ class EngController extends Controller
     public function welcome()
     {
         return view('welcome');
+    }
+
+    function store(Request $request)
+    {
+        // dd($request);
+        $eng = new Word;
+        $eng -> word = $request -> word;
+        $eng -> mean = $request -> mean;
+        $eng -> user_id = $request -> user_id;
+
+        $eng -> save();
+
+        return redirect()->route('welcome');
     }
 }

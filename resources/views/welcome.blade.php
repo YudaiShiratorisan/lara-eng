@@ -40,7 +40,7 @@
             </a>
         </div>
         <ul class="all-file">
-            <li class="file1"><a href="{{route('engs.index')}}" class="file-button1" style="text-decoration:none;"><p class="file-txt1">新規ファイル</p></a></li>
+            <li class="file1"><a href="{{route('engs.index')}}" class="file-button1" style="text-decoration:none;"><p class="file-txt1">新規ファイル1</p></a></li>
             <li class="file2"><a href="{{route('engs.index')}}" class="file-button2" style="text-decoration:none;"><p class="file-txt2">新規ファイル2</p></a></li>
             <li class="file3"><a href="{{route('engs.index')}}" class="file-button3" style="text-decoration:none;"><p class="file-txt3">新規ファイル3</p></a></li>
         </ul>
