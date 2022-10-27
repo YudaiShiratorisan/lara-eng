@@ -46,4 +46,3 @@ Route::get('/show','DetailController@show')->name('engs.show');
 Route::get('/index','DetailController@index')->name('engs.index');
 
 Route::get('/welcome','EngController@welcome')->name('welcome');
-
