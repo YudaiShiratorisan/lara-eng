@@ -17,26 +17,15 @@
     </div>
     
   </header>
-  
+ <div class="for">
+  @foreach ($engs as $eng)
   <div class="list">
-    <div class="word">like</div>
-    <div class="meaning">～を好む、～のような</div>
-    <div class="understanding">理解度 A</div>
+    <div class="word">単語 : {{ $eng -> word }}</div>
+    <div class="meaning">意味 : {{ $eng -> mean }}</div>
+    <div class="understanding">理解度 : </div>
   </div>
-  
-  <div class="list2">
-    <div class="word2">dislike</div>
-    <div class="meaning2">～を嫌う</div> 
-    <div class="understanding2">理解度 B</div> 
-  </div>
-    
-  <div class="list3">
-    <div class="word3">sample</div>
-    <div class="meaning3">サンプル、見本</div>
-    <div class="understanding3">理解度 C</div>
-  </div>
-    
-  
+    @endforeach
+ </div>
 
     <ul class="Pagination">
       <li class="Pagination-Item">
