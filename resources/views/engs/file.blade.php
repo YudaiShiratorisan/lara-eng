@@ -21,8 +21,6 @@
     <a href="{{ route('welcome') }}" style="text-decoration:none">
       <button class="btn1" type="submit">登録完了</button>
     </a>
-
-
 </body>
 
 </html>
