@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use App\Models\Word;
 
 class DetailController extends Controller
 {
     //
     public function show()
     {
-        return view('engs.show');
+        $engs = Word::all();
+
+        return view('engs.show',compact('engs'));
     }
 
     public function index()

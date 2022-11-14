@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EngController;
 use App\Http\Controllers\DetailController;
+use App\Http\Controllers\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +16,9 @@ use App\Http\Controllers\DetailController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/create-file', function () {
 //     return view('engs.create-file');
@@ -46,3 +47,7 @@ Route::get('/show','DetailController@show')->name('engs.show');
 Route::get('/index','DetailController@index')->name('engs.index');
 
 Route::get('/welcome','EngController@welcome')->name('welcome');
+
+Route::post('/engs','EngController@store')->name('engs.store');
+
+Route::post('/file','UploadController@upload')->name('engs.upload');
