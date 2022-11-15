@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EngController;
 use App\Http\Controllers\DetailController;
-use App\Http\Controllers\UploadController;
+use App\Http\Controllers\FileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,4 +50,4 @@ Route::get('/welcome','EngController@welcome')->name('welcome');
 
 Route::post('/engs','EngController@store')->name('engs.store');
 
-Route::post('/file','UploadController@upload')->name('engs.upload');
+Route::post('/files','FilesController@store')->name('files.store');

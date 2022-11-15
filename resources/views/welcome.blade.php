@@ -29,25 +29,36 @@
                 </div>
             @endif
         </div>
-        <div class="add-word">
-            <a href="{{route('engs.word')}}">
-                <button class="txt" type="submit">単語・熟語を追加</button>
-            </a>
+        <div class="contents">
+            <div class="add-word">
+                <a href="{{route('engs.word')}}">
+                    <button class="txt" type="submit">単語・熟語を追加</button>
+                </a>
+            </div>
+            <div class="add-file">
+                <a href="{{route('engs.file')}}">
+                    <button class="file" type="submit">ファイルを追加</button>
+                </a>
+            </div>
         </div>
-        <div class="add-file">
-            <a href="{{route('engs.file')}}">
-                <button class="file" type="submit">ファイルを追加</button>
-            </a>
-        </div>
-        <ul class="all-file">
-            <li class="file1"><a href="{{route('engs.index')}}" class="file-button1" style="text-decoration:none;"><p class="file-txt1">新規ファイル1</p></a></li>
-            <li class="file2"><a href="{{route('engs.index')}}" class="file-button2" style="text-decoration:none;"><p class="file-txt2">新規ファイル2</p></a></li>
-            <li class="file3"><a href="{{route('engs.index')}}" class="file-button3" style="text-decoration:none;"><p class="file-txt3">新規ファイル3</p></a></li>
-        </ul>
-        <ul class="delete">
-            <li class="delete1"><button class="sakujyo" type="submit">削除</button></li>
-            <li class="delete2"><button class="sakujyo" type="submit">削除</button></li>
-            <li class="delete3"><button class="sakujyo" type="submit">削除</button></li>
-        </ul>
     </body>
+    <footer class="foot">
+        <?php
+        $dsn = 'mysql:dbname=lara-eng;host=localhost';
+        $user = 'root';
+        $file = '';
+        $dbh = new PDO($dsn, $user, $file);
+        $dbh->query('SET NAMES UTF8MB4');
+        $sql = 'SELECT * FROM files';
+        $stmt = $dbh->prepare($sql);
+        $stmt->execute();
+        $files = $stmt->fetchALL(PDO::FETCH_ASSOC);
+        ?>
+        <?php foreach ($files as $file): ?>
+          <a href="{{route('engs.index')}}">
+            <p class="file1">ファイル名 : <?php echo $file['file']; ?></p>
+          </a>
+          {{-- <div class="file1">ファイル名 : {{ $file -> file }}</div> --}}
+        <?php endforeach ?>
+    </footer>
 </html>

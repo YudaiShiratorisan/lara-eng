@@ -137,7 +137,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   }
+
   .Pagination-Item-Link {
   display: flex;
   justify-content: center;
@@ -151,13 +156,16 @@ body {
   font-weight: bold;
   transition: all 0.15s linear;
   }
+
   .Pagination-Item-Link-Icon {
   width: 20px;
   }
+
   .Pagination-Item-Link.isActive {
   pointer-events: none;
   color: white;
   }
+  
   .Pagination-Item-Link:not(.isActive):hover {
   opacity: 0.5;
   }

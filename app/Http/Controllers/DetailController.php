@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Word;
+use App\Models\File;
 
 class DetailController extends Controller
 {

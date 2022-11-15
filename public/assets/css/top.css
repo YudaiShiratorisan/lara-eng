@@ -43,13 +43,15 @@ body{
     margin: 0%;
 }
 
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+
 .add-word{
-    position: absolute;
-    width: 600px;
-    height: 300px;
-    top: 100px;
-    left: 67px;
+    margin: 80px 20px 20px 35px;
     border: 2px solid white;
+    width: 50%;
 }
 
 .txt{
@@ -60,12 +62,9 @@ body{
 }
 
 .add-file{
-    position: absolute;
-    width: 600px;
-    height: 300px;
-    top: 100px;
-    left: 696px;
+    margin: 80px 35px 20px 20px;
     border: 2px solid white;
+    width: 50%;
 }
 
 .file{
@@ -73,14 +72,6 @@ body{
     background-color: transparent;
     padding: 126px 193px 126px 193px;
     font-size: 30px;
-}
-
-.all-file{
-    position: absolute;
-    width: 1235px;
-    top: 405px;
-    left: 26px;
-    list-style: none;
 }
 
 .file1{
@@ -141,28 +132,4 @@ body{
 
 .file-txt3{
     margin: 15px;
-}
-
-.delete{
-    position: absolute;
-    width: 100px;
-    top: 425px;
-    left: 1190px;
-    list-style: none;
-}
-
-.delete1{
-    margin-bottom: 16px;
-    height: 60px;
-}
-
-.delete2{
-    margin-bottom: 19px;
-    height: 60px;
-}
-
-.sakujyo{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
 }
