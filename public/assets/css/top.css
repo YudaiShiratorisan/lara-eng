@@ -49,7 +49,7 @@ body{
 }
 
 .add-word{
-    margin: 80px 20px 20px 35px;
+    margin: 80px 20px 15px 35px;
     border: 2px solid white;
     width: 50%;
 }
@@ -62,7 +62,7 @@ body{
 }
 
 .add-file{
-    margin: 80px 35px 20px 20px;
+    margin: 80px 35px 15px 20px;
     border: 2px solid white;
     width: 50%;
 }
@@ -75,10 +75,13 @@ body{
 }
 
 .file1{
+    display: flex;
+    align-items: center;
     height: 60px;
     border: 2px solid white;
     color: white;
-    margin-bottom: 14px;
+    margin: 0 0 10px 35px;
+    width: 94%;
 }
 
 .file-button1{
