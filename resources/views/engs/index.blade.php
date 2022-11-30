@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('assets/css/file-name.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/create-index.css') }}">
 </head>
     <body>
         <header>
             <div class="center">
             <button class="header-left" type="button" onclick="history.back()">＜ 戻る</button>
-            <span class="header-center">（ファイル名）</span>
+            <span class="header-center">選択してください</span>
             </div>
         </header>
         <div class="center2">

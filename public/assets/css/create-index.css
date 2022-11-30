@@ -75,6 +75,9 @@ article:nth-child(4) {
     pointer-events: painted;
     font-size: 30px;
 }
+.top:hover {
+    background-color: grey;
+}
 
 .top2{
     width: 450px;
@@ -84,6 +87,9 @@ article:nth-child(4) {
     background: transparent;
     pointer-events: painted;
     font-size: 30px;
+}
+.top2:hover {
+    background-color: grey;
 }
 
 .bottom{
@@ -95,6 +101,9 @@ article:nth-child(4) {
     pointer-events: painted;
     font-size: 30px;
 }
+.bottom:hover {
+    background-color: grey;
+}
 
 .bottom2{
     width: 450px;
@@ -105,4 +114,6 @@ article:nth-child(4) {
     pointer-events: painted;
     font-size: 30px;
 }
-
+.bottom2:hover {
+    background-color: grey;
+}
