@@ -63,7 +63,5 @@
       <button class="btn1" type="submit">登録完了</button>
     </a>
   </form>
-      
 </body>
-
 </html>
