@@ -18,14 +18,14 @@
     
   </header>
  <div class="for">
-  @foreach ($engs as $eng)
-  <div class="list">
-    <div class="word">単語 : {{ $eng -> word }}</div>
-    <div class="meaning">意味 : {{ $eng -> mean }}</div>
-    <div class="understanding">理解度 : </div>
-  </div>
+    @foreach ($engs as $eng)
+        <div class="list">
+          <div class="word">単語 : {{ $eng -> word }}</div>
+          <div class="meaning">意味 : {{ $eng -> mean }}</div>
+          <div class="understanding">理解度 : </div>
+        </div>
     @endforeach
- </div>
+  </div>
 
     <ul class="Pagination">
       <li class="Pagination-Item">
@@ -58,4 +58,4 @@
         </a>
       </li>
     </ul>
-
+</body>

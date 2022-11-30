@@ -60,6 +60,9 @@ body{
     padding: 126px 178px 126px 178px;
     font-size: 30px;
 }
+.txt:hover {
+    background-color: grey;
+}
 
 .add-file{
     margin: 80px 35px 15px 20px;
@@ -73,15 +76,27 @@ body{
     padding: 126px 193px 126px 193px;
     font-size: 30px;
 }
+.file:hover {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
 
 .file1{
     display: flex;
     align-items: center;
     height: 60px;
+    background-color: black;
+    font-size: 23px;
     border: 2px solid white;
     color: white;
     margin: 0 0 10px 35px;
-    width: 94%;
+    width: 94.5%;
+}
+.file1:hover {
+    background-color: grey;
 }
 
 .file-button1{

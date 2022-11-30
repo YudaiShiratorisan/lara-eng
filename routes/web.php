@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EngController;
 use App\Http\Controllers\DetailController;
-use App\Http\Controllers\FileController;
+use App\Http\Controllers\FilesController;
 
 /*
 |--------------------------------------------------------------------------

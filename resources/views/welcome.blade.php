@@ -6,8 +6,22 @@
         <title>lara-english</title>
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('assets/css/top.css') }}">
-
     </head>
+
+    <?php
+        // データベース接続文字列
+        $dsn = 'mysql:dbname=lara-eng;host=localhost';
+        $user = 'root';
+        $file = '';
+        // データベースへの接続を確認
+        $dbh = new PDO($dsn, $user, $file);
+        $dbh->query('SET NAMES UTF8MB4');
+        $sql = 'SELECT * FROM files';
+        $stmt = $dbh->prepare($sql);
+        $stmt->execute();
+        $files = $stmt->fetchALL(PDO::FETCH_ASSOC);
+        ?>
+
     <body class="antialiased">
         <header class="header">
             <p class="theme"><span>Anki</span></p>
@@ -43,22 +57,11 @@
         </div>
     </body>
     <footer class="foot">
-        <?php
-        $dsn = 'mysql:dbname=lara-eng;host=localhost';
-        $user = 'root';
-        $file = '';
-        $dbh = new PDO($dsn, $user, $file);
-        $dbh->query('SET NAMES UTF8MB4');
-        $sql = 'SELECT * FROM files';
-        $stmt = $dbh->prepare($sql);
-        $stmt->execute();
-        $files = $stmt->fetchALL(PDO::FETCH_ASSOC);
-        ?>
-        <?php foreach ($files as $file): ?>
+        
+        @foreach ($files as $file)
           <a href="{{route('engs.index')}}">
-            <p class="file1">ファイル名 : <?php echo $file['file']; ?></p>
+            <button class="file1"> {{ $file['file'] }} </button>
           </a>
-          {{-- <div class="file1">ファイル名 : {{ $file -> file }}</div> --}}
-        <?php endforeach ?>
+        @endforeach
     </footer>
 </html>

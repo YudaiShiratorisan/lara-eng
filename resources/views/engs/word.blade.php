@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="{{ asset('assets/css/create-word.css') }}">
 </head>
 
+<?php
+        // データベース接続文字列
+        $dsn = 'mysql:dbname=lara-eng;host=localhost';
+        $user = 'root';
+        $file = '';
+        // データベースへの接続を確認
+        $dbh = new PDO($dsn, $user, $file);
+        $dbh->query('SET NAMES UTF8MB4');
+        $sql = 'SELECT * FROM files';
+        $stmt = $dbh->prepare($sql);
+        $stmt->execute();
+        $files = $stmt->fetchALL(PDO::FETCH_ASSOC);
+?>
+
 <body>
   <header>
     <div class="center">
@@ -24,11 +38,15 @@
       <input class="meaning" type="text" placeholder="意味" name="mean">
   
       <div class="items">
-        <select class="whichfile" name="which-file">            
-          <option value="" disable selected style="display:none;">どのファイル？</option>
-          <option value="sample1">sample1</option>
-          <option value="sample2">sample2</option>
-        </select>
+        <form action="show.blade.php" method="POST">
+        @csrf
+          <select class="whichfile" name="which_file" value="">            
+            <option value="" disable selected style="display:none;">どのファイル？</option>
+              @foreach ($files as $file)
+                <option class="file1">{{ $file['file'] }}</option>
+              @endforeach
+          </select>
+        </form>
   
         <select class="whichcolor" name="which-color">
           <option value="" disable selected style="display:none;">単語のイメージ色は？</option>
