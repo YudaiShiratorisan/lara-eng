@@ -38,100 +38,56 @@ body {
   background-color: black;
 }
 
-.list {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 20px 0 20px 60px;
+.card {
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 100%;
+  padding: 9px;
+  border: solid 1px #dcdcdc;
 }
 
-.word{
-  display: flex;
+.list {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 20px;
+  /* margin: 20px 0 20px 60px; */
+}
+
+.word {
+  display: inline-flex;
+  align-items: center;
   background-color: #ffc0cb;
-  padding: 20px;
-  font-size: 24px;
-  width: 37%;
+  width: 35%;
+  padding: 0 20px;
+  border-right: black solid 1px;
 }
 
 .meaning{
-  display: flex;
-  align-content: center;
+  display: inline-flex;
+  align-items: center;
   background-color: #ffc0cb;
-  padding: 20px;
-  font-size: 24px;
-  width: 37%;
+  width: 35%;
+  padding: 0 20px;
+  position: relative;
+  border-right: black solid 1px;
+}
+
+.understanding{
+  display: inline-flex;
+  align-items: center;
+  background-color: #ffc0cb;
+  padding: 0 20px;
+  width: 9%;
+  position: relative;
 }
 
 .understanding{
   background-color: #ffc0cb;
   padding: 24px;
-  font-size: 18px;
   width: 9%;
-}
-
-.list2 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 20px 0 20px 60px;
-}
-
-.word2{
-  display: flex;
-  background-color: #afeeee;
-  padding: 20px;
-  font-size: 24px;
-  width: 37%;
-}
-
-.meaning2{
-  display: flex;
-  background-color: #afeeee;
-  padding: 20px;
-  font-size: 24px;
-  width: 37%;
-}
-
-.understanding2{
-  display: flex;
-  background-color: #afeeee;
-  padding: 24px;
-  font-size: 18px;
-  width: 9%;
-}
-
-.list3 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 20px 0 20px 60px;
-}
-
-.word3{
-  display: flex;
-  background-color: azure;
-  padding: 20px;
-  font-size: 24px;
-  width: 37%;
-}
-
-.meaning3{
-  display: flex;
-  align-content: center;
-  background-color: azure;
-  padding: 20px;
-  font-size: 24px;
-  width: 37%;
-}
-
-.understanding3{
-  display: flex;
-  background-color: azure;
-  padding: 24px;
-  font-size: 18px;
-  width: 9%;
-}
-
+} 
 
 .Pagination {
   display: flex;
